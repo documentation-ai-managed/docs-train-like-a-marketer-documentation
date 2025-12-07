@@ -1,0 +1,85 @@
+{
+  "name": "Train Like a Marketer",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#040404",
+      "heading": "#1a1a1a",
+      "text": "#374151"
+    },
+    "dark": {
+      "brand": "#040404",
+      "heading": "#f2f2f2",
+      "text": "#c1c1c1"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              }
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "icon": "lightbulb",
+            "pages": [
+              {
+                "title": "Marketing Techniques",
+                "path": "marketing-techniques",
+                "icon": "target"
+              },
+              {
+                "title": "Implementation Guide",
+                "path": "implementation-guide",
+                "icon": "tool"
+              }
+            ]
+          },
+          {
+            "group": "Resources",
+            "icon": "package",
+            "pages": [
+              {
+                "title": "Resources and Tools",
+                "path": "resources",
+                "icon": "book"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
